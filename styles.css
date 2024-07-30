@@ -232,7 +232,7 @@ header {
 
 /* Other CSS styles */
 .nav-search {
-    position: relative; /* Ensure that suggestions are positioned relative to the search bar */
+    position: relative; 
   }
 
 .suggestions {
@@ -242,7 +242,7 @@ header {
     border-radius: 4px;
     max-width: 620px;
     width: 100%;
-    top: 100%; /* Adjust based on the position of the search bar */
+    top: 100%; 
     left: 0;
     z-index: 1000;
     display: none;
@@ -349,7 +349,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1280px; /* Ensure this matches your content width */
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     background: #232f3e;
@@ -377,11 +377,11 @@ header {
     text-decoration: underline;
   }
   
-  /* Ensure the footer background color extends to the edges */
+  
   footer {
-    background-color: #232f3e; /* Same as .footer-items background color */
+    background-color: #232f3e;
     width: 100%;
-    padding: 0; /* Remove any additional padding if necessary */
+    padding: 0; 
   }
   
 
