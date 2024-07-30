@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
     const suggestionsDiv = document.getElementById('suggestions');
   
-    // Example data (you can replace this with dynamic data from your database)
+    
     const items = ['Shoes', 'Shirts', 'Shorts', 'Hats', 'Socks', 'Sneakers', 'Sandals'];
   
     searchInput.addEventListener('input', function() {
       const query = searchInput.value.toLowerCase();
-      suggestionsDiv.innerHTML = ''; // Clear previous suggestions
+      suggestionsDiv.innerHTML = ''; 
       if (query.length > 0) {
         const filteredItems = items.filter(item => item.toLowerCase().startsWith(query));
         if (filteredItems.length > 0) {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   
-    // Hide suggestions when clicking outside
+    
     document.addEventListener('click', function(event) {
       if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
         suggestionsDiv.style.display = 'none';
